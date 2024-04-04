@@ -10,7 +10,10 @@ printn("Arrays in PHP sind Datenstrukturen, die eine geordnete Sammlung von Elem
 printn('arrays werden entweder mit der array Funktion erzeugt oder mit [] die Elemente werden mit einem , getrennt');
 $teilnehmer = array("Bob", 'Tim', 'Alice');
 $teilnehmer = ["Bob", 'Tim', 'Alice'];
+// Anzahl der Elemente
 
+printn("Um die Anzahl der Elemente zu erhalten kann amn die count Funkktion nutzten");
+printn(count($teilnehmer));
 
 # Auswahl  Item
 printn("Um ein Element in aus dem Array auszuwaehlen spricht man es ueber seinen Index an ");
