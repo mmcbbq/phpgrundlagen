@@ -45,6 +45,12 @@ for ($i = 0; $i <= 3; $i++) {
 // Die Bedingung ergibt nun False und die Schleife wird gestoppt
 
 
+// Rückwärts Zählen
+for ($x = 10; $x >= 0; $x -= 2) {
+    echo "The number is: $x <br>";
+}
+
+
 
 // Um durch ein Array zu iterieren
 
