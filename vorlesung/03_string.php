@@ -39,9 +39,11 @@ echo $name;
 //str_replace();
 //strrev();
 //trim();
-
+//str_split()
 // String Slicing
 $a = "php ist super toll";
+
+
 print "<br>";
 echo substr($a,0,3); // Starte beim ersten Buchstaben und gehe 3 Buchstaben weiter
 print "<br>";

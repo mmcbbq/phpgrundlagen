@@ -1,8 +1,9 @@
+
+
+
 <?php
-echo 'Der Befehl echo gibt eine oder mehrere Variablen oder Zeichenketten auf dem Bildschirm aus.';
-$var1 = "variable 1";
-$var2 = "variable 2";
-echo $var1, $var2, "Zeichenkette";
+echo "Der Befehl echo gibt eine oder mehrere Variablen oder Zeichenketten auf dem Bildschirm aus.<br>";
+print "Der Befehl print macht das mehr oder weniger das gleiche <br>";
 
 //
 
@@ -18,6 +19,5 @@ echo "<div style='border-style: solid; background-color: #2be2c7 '>
 </div>";
 
 
-var_dump($var1);
-
+echo "hallo \"World\"";
 

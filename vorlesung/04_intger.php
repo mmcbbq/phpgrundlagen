@@ -4,7 +4,7 @@ $zahl = 123;
 # Es können auch negative Zahlen sein
 $zahl_negativ = -123;
 echo PHP_INT_MAX; // groester int
-echo "<br>";
+echo "<br> ";
 echo PHP_INT_MIN; // kleinster int
 echo '<br>';
 echo PHP_INT_SIZE; // bytes eines int

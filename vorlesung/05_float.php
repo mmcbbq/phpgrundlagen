@@ -1,5 +1,9 @@
 <?php
 # floats sind kommazahlen
+var_dump(PHP_FLOAT_MAX);
+var_dump(PHP_FLOAT_MAX);
+var_dump(-PHP_FLOAT_MIN);
+var_dump(-PHP_FLOAT_MIN);
 
 $zahl1 = 2.5;  # positive
 $zahl2 = - 0.55;  # negative
@@ -43,4 +47,12 @@ var_dump($c);
 echo "<br>";
 var_dump($d);
 
+var_dump(0.2 + 0.1);
+
+
+//0.2 -> 0.2 * 2 = 0.4 -> 0
+//0.4 -> 0.4 * 2 = 0.8 -> 0
+//0.8 -> 0.8 * 2 = 1.6 -> 1
+//0.6 -> 0.6 * 2 = 1.2 -> 1
+//0.2 -> 0.2 * 2 = 0.4 -> 0
 
