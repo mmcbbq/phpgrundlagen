@@ -57,7 +57,7 @@ printn('mit der array_pop Funktion kann das letzte Element entfernt werden');
 array_pop($teilnehmer);
 var_dump($teilnehmer);
 printn('');
-
+array_splice();
 printn('Mit der unset Funktion koennen auch Elemente ueber den Index entfernt werden');
 unset($teilnehmer[2]);
 
@@ -104,3 +104,5 @@ printn("");
 printn("");
 printn("Copy");
 var_dump($copy_teilnehmer);
+print('Um Teilstuecke auszuschneiden');
+array_slice();
